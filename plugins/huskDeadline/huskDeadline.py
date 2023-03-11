@@ -105,7 +105,7 @@ class HuskPlugin(DeadlinePlugin):
         duration = (self.GetEndFrame() - self.GetStartFrame()) + 1
         
         # set arguments
-        arguments = '--renderer Karma' 
+        arguments = '--renderer "{}"'.format(self.GetPluginInfoEntryWithDefault( "HuskRenderer", "Karma" ))
         arguments += ' -f {}'.format(self.GetStartFrame()) 
         arguments += ' -n {}'.format(duration)
         arguments += ' -Va2' # alf progress

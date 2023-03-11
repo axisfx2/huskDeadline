@@ -38,12 +38,22 @@ Description=The name of the husk executable
 Required=false
 DisableIfBlank=true
 
+[HuskRenderer]
+Type=string
+Label=Renderer
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=4
+Description=--renderer argument
+Required=false
+
+DisableIfBlank=true
 [CommandLineOptions]
 Type=string
 Label=Additional Arguments
 Category=Husk Deadline Options
 CategoryOrder=0
-Index=4
+Index=5
 Description=Additional husk arguments
 Required=false
 DisableIfBlank=true
