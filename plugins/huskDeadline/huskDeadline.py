@@ -1,6 +1,6 @@
-# husk --renderer Karma -f 25 -n 5 -o "H:\husk_plugin_dev\houdini\render\test_render\test_render_$F4.exr" "H:\husk_plugin_dev\houdini\usd\usd_export_v001.usd_rop1.usd"
-
 #!/usr/bin/env python3
+
+# husk --renderer Karma -f 25 -n 5 -o "H:\husk_plugin_dev\houdini\render\test_render\test_render_$F4.exr" "H:\husk_plugin_dev\houdini\usd\usd_export_v001.usd_rop1.usd"
 
 from __future__ import absolute_import
 from System.IO import Path
