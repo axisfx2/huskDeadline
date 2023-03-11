@@ -1,0 +1,49 @@
+[SceneFile]
+Type=filename
+Label=USD File
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=0
+Description=The USD input file
+Required=false
+DisableIfBlank=true
+
+[Output]
+Type=filename
+Label=Output File
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=1
+Description=The output file
+Required=false
+DisableIfBlank=true
+
+[HuskPath]
+Type=string
+Label=Husk Path
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=2
+Description=The folder where the husk executable is stored
+Required=false
+DisableIfBlank=true
+
+[HuskExecutable]
+Type=string
+Label=Husk Executable
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=3
+Description=The name of the husk executable
+Required=false
+DisableIfBlank=true
+
+[CommandLineOptions]
+Type=string
+Label=Additional Arguments
+Category=Husk Deadline Options
+CategoryOrder=0
+Index=4
+Description=Additional husk arguments
+Required=false
+DisableIfBlank=true

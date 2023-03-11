@@ -1,0 +1,17 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Husk Plugin for Deadline
+Description=Not configurable
+
+[Husk_Executable]
+Label=Houdini Husk Executable
+Category=Render Executables
+CategoryOrder=0
+Type=multilinemultifilename
+Index=0
+Default=husk
+Description=The path to the husk executable. It can be found in the Houdini bin folder.
