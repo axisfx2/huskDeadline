@@ -20,12 +20,12 @@
 
 ## Usage
 
-* Add karmarenderproperties to your stage
+* Add the karmarenderproperties node to your stage
 * Set karma's render settings inside karmarenderproperties
 * Add huskSubmitter to Driver (/out) context
-* Add the 'LOP Path'
-* Define your USD output
-* Define your image output
+* Set the 'LOP Path' to the output of your stage
+* Set the 'USD output'
+* Set the 'Image Output'
 * Click 'Submit to Deadline' button
 
 ## Changes
