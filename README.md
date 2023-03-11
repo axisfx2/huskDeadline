@@ -28,7 +28,7 @@
 * Define your image output
 * Click 'Submit to Deadline' button
 
-## Changing the renderer
+## Using a Different Husk Renderer
 
 By default, Karma is used. If you want to use a different husk supported renderer, you can do so by:
 * Going to 'Advanced > Command Line Options' inside the huskSubmitter ROP
