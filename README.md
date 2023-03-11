@@ -18,7 +18,7 @@
 * Thinkbox Deadline's Houdini Submitter
 * Houdini >= 19.0
 
-## Useage
+## Usage
 
 * Add karmarenderproperties to your stage
 * Set karma's render settings inside karmarenderproperties
