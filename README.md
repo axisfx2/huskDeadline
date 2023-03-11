@@ -2,7 +2,7 @@
 
 ## (huskDeadline)
 
-* Description: Karma Submitter for Houdini
+* Description: Karma/Husk Deadline Submitter for Houdini
 * Copyright: AXISFX LTD
 * Author: Ewan Davidson
 * Email: ewan@axisfx.design
@@ -27,6 +27,12 @@
 * Define your USD output
 * Define your image output
 * Click 'Submit to Deadline' button
+
+## Changing the renderer
+
+By default, Karma is used. If you want to use a different husk supported renderer, you can do so by:
+* Going to 'Advanced > Command Line Options' inside the huskSubmitter ROP
+* Add '--renderer "name_of_renderer_you_want_to_use"'
 
 ## Changes
 
