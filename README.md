@@ -2,7 +2,7 @@
 
 ## (huskDeadline)
 
-* Description: Husk Submitter for Houdini
+* Description: Karma Submitter for Houdini
 * Copyright: AXISFX LTD
 * Author: Ewan Davidson
 * Email: ewan@axisfx.design
@@ -21,7 +21,7 @@
 ## Useage
 
 * Add karmarenderproperties to your stage
-* Define karma's render settings
+* Set karma's render settings inside karmarenderproperties
 * Add huskSubmitter to Driver (/out) context
 * Add the 'LOP Path'
 * Define your USD output
