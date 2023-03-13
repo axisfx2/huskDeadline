@@ -7,7 +7,7 @@
 * Author: Ewan Davidson
 * Email: ewan@axisfx.design
 * Release Date: 11.03.2023
-* Current Version: 1.0.0
+* Current Version: 1.0.1
 
 ## Installation
 
@@ -28,7 +28,17 @@
 * Set the 'Image Output'
 * Click 'Submit to Deadline' button
 
+## Limitations
+
+* Exporting as EXR is the only way to write additional AOVs
+
 ## Changes
+
+### 1.0.1  |  12.03.2023
+
+* Fixed re.Pattern and re.Match not existing in older versions of houdini
+* Attempts to decifer $F from keyframed parameters (when hou.Parm.unexpandedString fails)
+* Added --make-output-path argument - huskDeadline plugin handled missing output path creation originally
 
 ### 1.0.0  |  11.03.2023
 

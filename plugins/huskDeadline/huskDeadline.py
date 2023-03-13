@@ -95,11 +95,6 @@ class HuskPlugin(DeadlinePlugin):
         else:
             outputFile = outputFile.replace( "\\", "/" )
 
-        folder = os.path.dirname(outputFile)
-        if not os.path.isdir(folder):
-            self.LogInfo( "Attempting to create output folder " + folder )
-            os.makedirs(folder)
-
         self.LogInfo( "Rendering output to " + outputFile )
 
         duration = (self.GetEndFrame() - self.GetStartFrame()) + 1
@@ -109,6 +104,7 @@ class HuskPlugin(DeadlinePlugin):
         arguments += ' -f {}'.format(self.GetStartFrame()) 
         arguments += ' -n {}'.format(duration)
         arguments += ' -Va2' # alf progress
+        arguments += ' --make-output-path'
         arguments += ' -o "{}"'.format(outputFile)
 
         # allow user to override arguments
