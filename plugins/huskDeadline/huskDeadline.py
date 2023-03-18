@@ -39,6 +39,7 @@ class HuskPlugin(DeadlinePlugin):
         
         self.AddStdoutHandlerCallback("ALF_PROGRESS ([0-9]+)").HandleCallback += self.HandleStdoutProgress
         self.AddStdoutHandlerCallback("Error:(.*)").HandleCallback += self.HandleStdoutError
+        self.AddStdoutHandlerCallback( ".*(No karma license found).*" ).HandleCallback += self.HandleStdoutLicense
         
         # self.AddPopupHandler( ".*Houdini DSO Error.*", "OK" )
 
@@ -124,3 +125,6 @@ class HuskPlugin(DeadlinePlugin):
         
     def HandleStdoutError(self):
         self.FailRender(self.GetRegexMatch(0))
+
+    def HandleStdoutLicense(self):
+        self.FailRender(self.GetRegexMatch(1))

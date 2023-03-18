@@ -34,6 +34,11 @@
 
 ## Changes
 
+### 1.0.2  |  18.03.2023
+
+* Deadline task errors when no Karma license is found
+* USD ROP flattens all layers
+
 ### 1.0.1  |  12.03.2023
 
 * Fixed re.Pattern and re.Match not existing in older versions of houdini
