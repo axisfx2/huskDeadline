@@ -7,7 +7,7 @@
 * Author: Ewan Davidson
 * Email: ewan@axisfx.design
 * Release Date: 11.03.2023
-* Current Version: 1.0.1
+* Current Version: 1.0.2
 
 ## Installation
 
