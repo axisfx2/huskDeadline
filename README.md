@@ -34,6 +34,10 @@
 
 ## Changes
 
+### 1.0.3  |  10.04.2023
+
+* Deadline job suffixed with renderer name instead of 'Karma'
+
 ### 1.0.2  |  18.03.2023
 
 * Deadline task errors when no Karma license is found
