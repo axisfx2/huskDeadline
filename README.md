@@ -7,7 +7,7 @@
 * Author: Ewan Davidson
 * Email: ewan@axisfx.design
 * Release Date: 11.03.2023
-* Current Version: 1.0.4
+* Current Version: 1.0.5
 
 ## Installation
 
@@ -33,6 +33,10 @@
 * Exporting as EXR is the only way to write additional AOVs
 
 ## Changes
+
+### 1.0.5  |  13.04.2023
+
+* Fixed increment parameter (f3)
 
 ### 1.0.4  |  10.04.2023
 
